@@ -1,0 +1,231 @@
+:root{
+    margin:auto;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 1em;
+}
+
+#contenedor{
+    margin:0px;
+    padding-top: 0px;
+}
+#contener{
+    margin:0px;
+    padding-top: 350px;
+}
+#contenedar{
+    margin:0px;
+    padding-top: 300px;
+}
+#contenible{
+    margin:0px;
+    padding-top: 300px;
+}
+
+header{
+    background: linear-gradient(rgb(59, 0, 0), rgb(100, 0, 13));
+    padding: 10px;
+}
+.hierno{
+    position: fixed;
+    top:0.1px;
+    right:10px;
+    width:100%;
+    z-index: 10px;
+}
+
+.norm{
+    position: relative;
+    top:10px;
+}
+.norm1{
+    position: relative;
+    top:-7px;
+}
+h4{
+    font-family: "Exo 2", sans-serif;
+    ;
+}
+#marc{
+    justify-content: center;
+    flex-direction: row;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 12px;
+    background-color: black;
+}
+#larcu{
+    justify-content: center;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 10px;
+    position: relative;
+    bottom:50px;
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+.fie{
+    position:relative;
+    top:55px;
+}
+.lie{
+    position:relative;
+    top:0px;
+}
+li .fie:hover{
+    transition-property: all;
+    transition: ease-in;
+    transition-duration: 0.2s;
+    transition-delay: 0.2;
+    background-color: rgb(17, 0, 0);
+    border-radius: 15px;
+    padding: 8px;
+    font-size: 17px;
+    color: rgb(173, 0, 0);
+}
+li .lie:hover{
+    transition-property: all;
+    transition: ease-in;
+    transition-duration: 0.2s;
+    transition-delay: 0.2;
+    background-color: rgb(17, 0, 0);
+    border-radius: 15px;
+    padding: 8px;
+    font-size: 17px;
+    color: rgb(173, 0, 0);
+}
+.ere{
+    height: 350px;
+    position:relative;
+    top:44px;
+    left:190px;
+}
+.fio{
+    float: left;
+    position: relative;
+}
+.tri{
+    position:relative;
+    bottom:264px;
+}
+.g1{
+    height:65px;
+}
+.g2{
+    height:68px;
+    position:relative;
+    bottom:3px;
+}
+
+.g3{
+    height:43px;
+    border-radius: 10px;
+    position:relative;
+    top:10px;
+}
+.g4{
+    height:40px;
+    border-radius: 10px;
+    position:relative;
+    top:10px;
+}
+#pine{
+    display: flex;
+    justify-content: center;
+}
+.w1:hover{
+    transition-property: all;
+    transition: ease-in;
+    transition-duration: 0.2s;
+    transition-delay: 0.3;
+    filter:invert(15%);
+}
+
+article{
+    justify-content: center;
+    align-self: center;
+}
+#video-responsive{
+    padding-bottom: 56,25%;
+    width:560px;
+    z-index: -1;
+    position: relative;
+    padding-bottom: 100px;
+    transform: translate(88%,0%);
+    height:315px;
+}
+.j3{
+    position:relative;
+    top:100px;
+}
+.texto{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+  }
+.stock{
+    display: flex;
+    position: relative;
+    z-index: -1;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.clerigo1{
+    filter: invert(30%);
+}
+.clerigo2{
+    filter: sepia(50%);
+}
+.clerigo3{
+    filter: grayscale(100%);
+}
+.clerigo4{
+    filter:blur(2px);
+}
+.clerigo5{
+    filter:opacity(50%);
+}
+.clerigo6{
+    filter:hue-rotate(55deg);
+}
+.venti{
+    border: 3px solid black;
+    margin:12px;
+    z-index: -1;
+    position: relative;
+}
+
+.dorme{
+    text-align: center;
+}
+.yolk{
+    position: relative;
+    bottom:60px;
+    left:1390px;
+}
+.yarme{
+    font-size: 12px;
+    position: relative;
+    bottom:60px;
+    left:636px;
+
+}
+.gr4{
+    background-image: url("img/arat.jpg");
+}
+.k4{
+    position: relative;
+    transform: translate(0%,20%);
+}
