@@ -31,7 +31,6 @@ header{
 .hierno{
     position: fixed;
     top:0.1px;
-    right:10px;
     width:100%;
     z-index: 10px;
 }
@@ -54,9 +53,12 @@ h4{
     display: flex;
     align-content: center;
     flex-wrap: wrap;
+    position:relative;
+    top:0;
+    right:9px;
     justify-content: space-evenly;
     padding: 12px;
-    background-color: black;
+    background-color: rgb(17, 17, 17);
 }
 #larcu{
     justify-content: center;
@@ -88,22 +90,21 @@ li .fie:hover{
     transition: ease-in;
     transition-duration: 0.2s;
     transition-delay: 0.2;
-    background-color: rgb(17, 0, 0);
+    background-color: rgb(0, 5, 17);
     border-radius: 15px;
     padding: 8px;
     font-size: 17px;
-    color: rgb(173, 0, 0);
+    color: rgb(106, 153, 255);
 }
 li .lie:hover{
     transition-property: all;
-    transition: ease-in;
+    transition: ease-in-out;
     transition-duration: 0.2s;
     transition-delay: 0.2;
-    background-color: rgb(17, 0, 0);
+    background-color: rgb(44, 0, 10);
     border-radius: 15px;
     padding: 8px;
-    font-size: 17px;
-    color: rgb(173, 0, 0);
+    color: rgb(175, 0, 38);
 }
 .ere{
     height: 350px;
@@ -158,12 +159,19 @@ article{
 }
 #video-responsive{
     padding-bottom: 56,25%;
-    width:560px;
+    width:40%;
     z-index: -1;
     position: relative;
     padding-bottom: 100px;
-    transform: translate(88%,0%);
-    height:315px;
+    transform: translate(75%,0%);
+}
+.calci{
+    background: linear-gradient(rgb(196, 214, 255), rgb(233, 240, 255));
+    border: 3px solid black;
+    border-style: groove;
+    position: relative;
+    margin: 30px;
+    z-index: -1;
 }
 .j3{
     position:relative;
@@ -213,7 +221,7 @@ article{
 .yolk{
     position: relative;
     bottom:60px;
-    left:1390px;
+    left: 1290px;
 }
 .yarme{
     font-size: 12px;
